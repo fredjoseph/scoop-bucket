@@ -1,2 +1,2 @@
 # scoop-bucket
-bucket for Scoop installer - http://scoop.sh/
+bucket for [Scoop](http://scoop.sh)
