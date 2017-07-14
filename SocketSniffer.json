@@ -1,0 +1,12 @@
+{
+    "homepage": "http://www.nirsoft.net/utils/socket_sniffer.html",
+    "description": "SocketSniff allows to watch the Windows Sockets (WinSock) activity of the selected process.",
+    "version": "1.11",
+    "url": "http://www.nirsoft.net/utils/socketsniff.zip",
+    "hash": "2160d297c21a4758e540ea5291c6d4df4bce74c2dab85647a8a1a875fcf49ccc",
+    "bin": "SocketSniff.exe",
+    "checkver": "SocketSniff v([\\d\\.]+)",
+    "autoupdate": {
+        "url": "http://www.nirsoft.net/utils/socketsniff.zip"
+    }
+}
