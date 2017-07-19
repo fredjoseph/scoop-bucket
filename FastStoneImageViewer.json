@@ -1,0 +1,25 @@
+{
+    "homepage": "http://www.faststone.org/",
+    "description": "Image browser, converter and editor",
+    "version": "6.2",
+    "url": [
+        "http://www.faststonesoft.net/DN/FSViewer62.zip"
+    ],
+    "hash": [
+        "2397f9a45e3bc0fc078b31984c3be7cf375201d0313973e22f9493ada5a3859f"
+    ],
+    "extract_dir": "FSViewer62",
+    "shortcuts": [
+        [
+            "FSViewer.exe",
+            "FastStone Image viewer"
+        ]
+    ],
+    "checkver": "Image Viewer ([\\d.]+)",
+    "autoupdate": {
+        "url": [
+            "http://www.faststonesoft.net/DN/FSViewer$cleanVersion.zip"
+        ],
+        "extract_dir": "FSViewer$cleanVersion"
+    }
+}
