@@ -5,8 +5,15 @@
     "url": "http://www.nirsoft.net/utils/socketsniff.zip",
     "hash": "2160d297c21a4758e540ea5291c6d4df4bce74c2dab85647a8a1a875fcf49ccc",
     "bin": "SocketSniff.exe",
+    "shortcuts": [
+        [
+            "SocketSniff.exe",
+            "SocketSniff"
+        ]
+    ],
     "checkver": "SocketSniff v([\\d\\.]+)",
     "autoupdate": {
         "url": "http://www.nirsoft.net/utils/socketsniff.zip"
-    }
+    },
+    "notes": "This application can only work with 32-bit programs"
 }
