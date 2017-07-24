@@ -11,6 +11,12 @@
         "6d83890212edb6da60f31de4f442da0c7c52c45309d7d5b67d3e7080231d400e"
     ],
     "bin": "KeePass.exe",
+    "shortcuts": [
+        [
+            "KeePass.exe",
+            "KeePass"
+        ]
+    ],
     "checkver": {
         "url": "http://keepass.info/download.html",
         "re": "Professional.*\\s+.*<i>KeePass ([\\d.]+)</i>"

@@ -5,5 +5,11 @@
     "url": "http://www.hostmonitor.biz/download/wmiexplorer.zip",
     "hash": "",
     "bin": "wmiexplorer.exe",
-    "checkver": "Version ([\\d\\.]+)"
+    "shortcuts": [
+        [
+            "wmiexplorer.exe",
+            "WMI Explorer"
+        ]
+    ],
+    "checkver": "Version ([\\d.]+)"
 }
