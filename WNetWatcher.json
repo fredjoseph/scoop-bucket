@@ -1,0 +1,17 @@
+{
+    "homepage": "http://www.nirsoft.net/utils/wireless_network_watcher.html",
+    "description": "Wireless Network Watcher scans your wireless network and displays the list of all devices that are connected to your network",
+    "version": "2.12",
+    "url": "http://www.nirsoft.net/utils/wnetwatcher.zip",
+    "hash": "0e2913ece6238d4d57538490f10712e145d4a1884489f33550770eab50675114",
+    "shortcuts": [
+        [
+            "WNetWatcher.exe",
+            "WNetWatcher"
+        ]
+    ],
+    "checkver": "Watcher v([\\d.]+)",
+    "autoupdate": {
+        "url": "http://www.nirsoft.net/utils/wnetwatcher.zip"
+    }
+}
