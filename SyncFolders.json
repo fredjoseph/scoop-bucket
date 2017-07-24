@@ -1,0 +1,24 @@
+{
+    "homepage": "http://www.syncfolders.elementfx.com",
+    "description": "Synchronize or backup your files and folders",
+    "version": "3.4.369",
+    "url": "http://www.syncfolders.elementfx.com/setupfile/SyncFoldersPortable.zip",
+    "hash": "4ecea050f7245475090c3595ec8bce1fdb69de6aefe5df595961b625d520aafb",
+    "shortcuts": [
+        [
+            "SyncFolders.exe",
+            "SyncFolders"
+        ]
+    ],
+    "persist": [
+        "User Data"
+    ],
+    "checkver": {
+        "url": "http://www.syncfolders.elementfx.com/download.html",
+        "re": "version:\\s*([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "http://www.syncfolders.elementfx.com/setupfile/SyncFoldersPortable.zip"
+    },
+    "notes": "This application requires .NET framework"
+}
