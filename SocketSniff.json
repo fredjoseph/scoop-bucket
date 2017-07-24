@@ -11,7 +11,7 @@
             "SocketSniff"
         ]
     ],
-    "checkver": "SocketSniff v([\\d\\.]+)",
+    "checkver": "SocketSniff v([\\d.]+)",
     "autoupdate": {
         "url": "http://www.nirsoft.net/utils/socketsniff.zip"
     },

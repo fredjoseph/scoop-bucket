@@ -19,7 +19,7 @@
             "SmartSniff"
         ]
     ],
-    "checkver": "SmartSniff v([\\d\\.]+)",
+    "checkver": "SmartSniff v([\\d.]+)",
     "autoupdate": {
         "architecture": {
             "64bit": {
