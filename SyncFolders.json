@@ -1,9 +1,9 @@
 {
     "homepage": "http://www.syncfolders.elementfx.com",
     "description": "Synchronize or backup your files and folders",
-    "version": "3.4.383",
+    "version": "3.4.456",
     "url": "http://www.syncfolders.elementfx.com/setupfile/SyncFoldersPortable.zip",
-    "hash": "afd779c787a6d4f7827c0f468c3d9350cd6ea195b24464ebdbd7be0643662999",
+    "hash": "33fff72ba072a464e193daab299afc447dfb9d6de6814dde91389c5d46e4e5a8",
     "shortcuts": [
         [
             "SyncFolders.exe",

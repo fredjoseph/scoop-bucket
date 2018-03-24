@@ -1,10 +1,10 @@
 {
     "homepage": "https://github.com/carsonip/Penguin-Subtitle-Player",
     "description": "Open-source, cross-platform standalone subtitle player",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "license": "GPL3",
-    "url": "https://github.com/carsonip/Penguin-Subtitle-Player/releases/download/v1.0.1/PenguinSubtitlePlayer-Windows.zip",
-    "hash": "72fbb6d20ad00aa5665a3b168bf107c6b121ecedc98065149a3a50de0fa0d8f0",
+    "url": "https://github.com/carsonip/Penguin-Subtitle-Player/releases/download/v1.1.0/PenguinSubtitlePlayer-Windows.zip",
+    "hash": "f97a137143d3c2873cf85ca233794718557abbfed08945b9289b77c8391886ca",
     "shortcuts": [
         [
             "PenguinSubtitlePlayer.exe",
