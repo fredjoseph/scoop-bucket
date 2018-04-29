@@ -1,0 +1,21 @@
+{
+    "homepage": "https://github.com/fredjoseph/packtpub-notifier",
+    "description": "A Windows notifier for the Packtpub daily free ebook.",
+    "version": "1.0",
+    "url": "https://github.com/fredjoseph/packtpub-notifier/archive/v1.0.zip",
+    "hash": "63dd5f4a3a33132a05da6d3e2f9834018cc50c81909103b3d3cd7563e42dc3ed",
+    "extract_dir": "packtpub-notifier-1.0",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/fredjoseph/packtpub-notifier/archive/v$version.zip",
+        "extract_dir": "packtpub-notifier-$version"
+    },
+    "post_install": "
+        cd $(current_dir $dir)
+        npm i
+        iex \"$(current_dir $dir)\\scripts\\install.ps1\"
+    ",
+    "uninstaller": {
+        "script": "iex \"$(current_dir $dir)\\scripts\\uninstall.ps1\""
+    }
+}
