@@ -5,6 +5,7 @@
     "url": "https://github.com/fredjoseph/packtpub-notifier/archive/v1.0.zip",
     "hash": "63dd5f4a3a33132a05da6d3e2f9834018cc50c81909103b3d3cd7563e42dc3ed",
     "extract_dir": "packtpub-notifier-1.0",
+    "depends": "nodejs",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/fredjoseph/packtpub-notifier/archive/v$version.zip",
