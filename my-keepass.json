@@ -22,8 +22,6 @@
         "re": "KeePass ([\\d.]+)"
     },
     "autoupdate": {
-        "url": [
-            "https://sourceforge.net/projects/keepass/files/KeePass%20$majorVersion.x/$version/KeePass-$version.zip"
-        ]
+        "url": "https://sourceforge.net/projects/keepass/files/KeePass%20$majorVersion.x/$version/KeePass-$version.zip"
     }
 }
