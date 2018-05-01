@@ -3,7 +3,7 @@
     "description": "Windows Management Instrumentation Explorer - Allows to explore the full set of WMI management classes",
     "version": "1.16",
     "url": "http://www.hostmonitor.biz/download/wmiexplorer.zip",
-    "hash": "",
+    "hash": "883e4b4386f3c651138417a78d22ccc3f9418b05f1d31acc1710128a3bfe2a3b",
     "bin": "wmiexplorer.exe",
     "shortcuts": [
         [
@@ -11,5 +11,8 @@
             "WMI Explorer"
         ]
     ],
-    "checkver": "Version ([\\d.]+)"
+    "checkver": "Version ([\\d.]+)",
+    "autoupdate": {
+        "url": "http://www.hostmonitor.biz/download/wmiexplorer.zip"
+    }
 }
