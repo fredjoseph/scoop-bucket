@@ -1,15 +1,15 @@
 {
     "homepage": "http://www.nirsoft.net/utils/smsniff.html",
     "description": "SmartSniff is a network monitoring utility that allows you to capture TCP/IP packets that pass through your network adapter.",
-    "version": "2.28",
+    "version": "2.29",
     "architecture": {
         "64bit": {
             "url": "http://www.nirsoft.net/utils/smsniff-x64.zip",
-            "hash": "537bc3a4f4f331b8946ce3c90be7f56231c5c7fd49fd5e8c12d90c0815c94ac3"
+            "hash": "c819762aefd4199826823024feb8ea953e56095c44229f6680d9e054c7cc0450"
         },
         "32bit": {
             "url": "http://www.nirsoft.net/utils/smsniff.zip",
-            "hash": "236ca728e4698c535353e5ebcac3e6c0bd0bafa7e149a4eb5e73df2a541cd09c"
+            "hash": "d5ce6ef59020617a411bae4d0aa8a0d86d61d0855c00e1694de9a86e6188be1b"
         }
     },
     "bin": "smsniff.exe",
