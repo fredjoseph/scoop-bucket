@@ -4,18 +4,30 @@ branches:
     only:
         - master
 
-init:
-    - ps: (get-psprovider 'FileSystem').Home = $(pwd)
-    - ps: Install-PackageProvider Nuget -Force
-    - ps: Install-Module -Name Pester -Repository PSGallery -Force
-    
-install:
-    - ps: iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-    - ps: $env:SCOOP_HOME = resolve-path (split-path (split-path (scoop which scoop)))
-    
 build: off
+deploy: off
+clone_depth: 5
 
-test_script:
-    - ps: $result = invoke-pester -path test/ -outputfile TestResults.xml -outputformat NUnitXML -passthru; $env:failedcount = $result.failedcount
-    - ps: (new-object net.webclient).uploadfile("https://ci.appveyor.com/api/testresults/nunit/$($env:APPVEYOR_JOB_ID)", (resolve-path ./TestResults.xml))
-    - ps: if($env:failedcount -gt 0) { exit $env:failedcount }
+image:
+    - Visual Studio 2017
+
+environment:
+    matrix:
+        - PowerShell: 5
+
+cache:
+    - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> appveyor.yml'
+
+matrix:
+    fast_finish: true
+
+for:
+- 
+    matrix:
+        only:
+            - PowerShell: 5
+    install:
+        - ps: iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+        - ps: .\test\bin\init.ps1
+    test_script:
+        - ps: .\test\bin\test.ps1
