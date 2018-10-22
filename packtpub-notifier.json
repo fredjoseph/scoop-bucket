@@ -12,11 +12,9 @@
         "extract_dir": "packtpub-notifier-$version"
     },
     "post_install": [
-        "",
         "cd $(current_dir $dir)",
         "npm i",
-        "iex \"$(current_dir $dir)\\scripts\\install.ps1\"",
-        ""
+        "iex \"$(current_dir $dir)\\scripts\\install.ps1\""
     ],
     "uninstaller": {
         "script": "iex \"$(current_dir $dir)\\scripts\\uninstall.ps1\""
