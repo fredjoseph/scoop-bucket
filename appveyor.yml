@@ -14,6 +14,7 @@ image:
 environment:
     matrix:
         - PowerShell: 5
+        - Powershell: 6
 
 cache:
     - '%USERPROFILE%\Documents\WindowsPowerShell\Modules -> appveyor.yml'
@@ -27,7 +28,22 @@ for:
         only:
             - PowerShell: 5
     install:
-        - ps: iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
-        - ps: .\test\bin\init.ps1
+        - ps: |
+            iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+            .\test\bin\init.ps1
     test_script:
-        - ps: .\test\bin\test.ps1
+        - ps: |
+            .\test\bin\test.ps1
+-   
+    matrix:
+        only:
+            - PowerShell: 6
+    install:
+        - pwsh: |
+            iex (new-object net.webclient).downloadstring('https://get.scoop.sh')
+            .\test\bin\init.ps1
+    test_script:
+        - pwsh: |
+            # Issue: At each pwsh command, scoop disappears from the path variable
+            $env:path = "$env:userprofile\scoop\shims;$env:path"
+            .\test\bin\test.ps1
