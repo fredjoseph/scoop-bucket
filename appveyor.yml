@@ -23,7 +23,7 @@ matrix:
     fast_finish: true
 
 for:
-- 
+-
     matrix:
         only:
             - PowerShell: 5
@@ -34,7 +34,7 @@ for:
     test_script:
         - ps: |
             .\test\bin\test.ps1
--   
+-
     matrix:
         only:
             - PowerShell: 6
