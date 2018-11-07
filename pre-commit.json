@@ -5,7 +5,7 @@
     "version": "1.12.0",
     "depends": "python",
     "url": "https://github.com/pre-commit/pre-commit/blob/master/CHANGELOG.md",
-    "hash": "b89554206d31aeadb8bea05afe53552ed1370ff416b7b49d1abccc0d60b3dca8",
+    "hash": "68bd93b7ee9e3c7325ee2220ec1079245eaee14219591eae3ac3fd907dadbf75",
     "post_install": [
         "pip install pre-commit"
     ],
