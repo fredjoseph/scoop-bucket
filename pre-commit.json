@@ -5,7 +5,7 @@
     "version": "1.14.2",
     "depends": "python",
     "url": "https://github.com/pre-commit/pre-commit/blob/master/CHANGELOG.md",
-    "hash": "2aecdcb1b553105eae5bb73993e0c6f19ef12867d78fb18ed698578c14ffe27e",
+    "hash": "8fa1798d7e798842d4ebdaea9747fca06803838c868a4c4b7eaf9f16553bbace",
     "post_install": "pip install pre-commit",
     "uninstaller": {
         "script": "pip uninstall -y pre-commit"
