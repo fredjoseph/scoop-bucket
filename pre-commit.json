@@ -4,14 +4,14 @@
     "license": "MIT",
     "version": "1.14.2",
     "depends": "python",
-    "url": "https://github.com/pre-commit/pre-commit/blob/master/CHANGELOG.md",
-    "hash": "8fa1798d7e798842d4ebdaea9747fca06803838c868a4c4b7eaf9f16553bbace",
+    "url": "https://github.com/pre-commit/pre-commit/blob/master/LICENSE",
+    "hash": "79dfcce27fc980014338f0f4ca12d88589101d56b58cafc4ddaace917842fad1",
     "post_install": "pip install pre-commit",
     "uninstaller": {
         "script": "pip uninstall -y pre-commit"
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/pre-commit/pre-commit/blob/master/CHANGELOG.md"
+        "url": "https://github.com/pre-commit/pre-commit/blob/master/LICENSE"
     }
 }
