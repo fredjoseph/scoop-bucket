@@ -2,10 +2,10 @@
     "homepage": "https://github.com/pre-commit/pre-commit",
     "description": "A framework for managing and maintaining multi-language pre-commit hooks.",
     "license": "MIT",
-    "version": "1.14.4",
+    "version": "1.15.1",
     "depends": "python",
     "url": "https://github.com/pre-commit/pre-commit/blob/master/LICENSE",
-    "hash": "8bf29514967ba9124e9dd62ec1d376ffc2e6e28ce81a2ce573cd570c990209b5",
+    "hash": "cd1955965dce1c9eb43de4fdc19854cf0fdf9043f205329fca989cfe3c8195e2",
     "post_install": "pip install pre-commit",
     "uninstaller": {
         "script": "pip uninstall -y pre-commit"
