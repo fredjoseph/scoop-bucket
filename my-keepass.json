@@ -1,13 +1,13 @@
 {
     "homepage": "http://keepass.info/",
     "description": "Free, open source, light-weight and easy-to-use password manager",
-    "version": "2.42",
+    "version": "2.42.1",
     "url": [
-        "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.42/KeePass-2.42.zip",
+        "https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.42.1/KeePass-2.42.1.zip",
         "https://gist.githubusercontent.com/fredjoseph/4f2984420d5cf0519181f16b4fcebb54/raw/55dc0a798e0b91bc14c47cca9afd78fde03ff044/KeePass.config.xml"
     ],
     "hash": [
-        "sha1:acaa72e0ad051b5842c083d2b42c22ee4c07fb62",
+        "sha1:01cb0caeb030cbecb7dd0012ffa685661e29966d",
         "6d83890212edb6da60f31de4f442da0c7c52c45309d7d5b67d3e7080231d400e"
     ],
     "bin": "KeePass.exe",
