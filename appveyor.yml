@@ -38,5 +38,5 @@ for:
     test_script:
         - pwsh: |
             # Issue: At each pwsh command, scoop disappears from the path variable
-            # $env:path = "$env:userprofile\scoop\shims;$env:path"
+            $env:path = "$env:userprofile\scoop\shims;$env:path"
             .\test\bin\test.ps1
