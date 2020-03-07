@@ -5,7 +5,7 @@
     "version": "2.1.1",
     "depends": "python",
     "url": "https://github.com/pre-commit/pre-commit/raw/master/LICENSE",
-    "hash": "f68d4dc99ed2f2481a91326e8225fc03574447280888beaff4e468bdffda9195",
+    "hash": "ea2ca27cba7cc35822d95a46d59bcd3cc88e196592e6390d1949a359ffc990e8",
     "post_install": "pip install pre-commit",
     "uninstaller": {
         "script": "pip uninstall -y pre-commit"
