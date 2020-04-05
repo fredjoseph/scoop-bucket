@@ -1,0 +1,22 @@
+﻿{
+    "homepage":  "https://subhra74.github.io/xdm",
+    "description": "A powerful FOSS downloader supports features as seamlessly integration with browsers, monitoring and capture, broken/dead tasks resumption",
+    "version":  "7.2.7",
+    "license":  "GPL-2.0",
+    "extract_dir":  "XDM",
+    "url":  "https://github.com/subhra74/xdm/releases/download/7.2.7/xdmsetup.msi",
+    "hash":  "",
+    "bin":  "xdman.jar",
+    "shortcuts": [
+      [
+        "xdman.jar",
+        "Xtreme Download Manager"
+      ]
+    ],
+    "checkver": {
+      "github": "https://github.com/subhra74/xdm"
+    },
+    "autoupdate": {
+      "url": "https://github.com/subhra74/xdm/releases/download/$version/xdmsetup.msi"
+    }
+}
