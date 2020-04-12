@@ -3,6 +3,7 @@
     "description": "Subtitle Speech Synchronizer - automatic movie subtitle synchronization tool",
     "version": "0.15",
     "license": "GPL-3.0",
+    "extract_dir": "subsync",
     "url": "https://github.com/sc0ty/subsync/releases/download/0.15/subsync-0.15.0-amd64.msi",
     "hash": "7510b1ca255ed785a58da114938c24af03ca008b334af312291fa794b8e793ef",
     "bin": "subsync.exe",
