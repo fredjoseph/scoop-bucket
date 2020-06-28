@@ -26,7 +26,7 @@ for:
             .\test\bin\init.ps1
     test_script:
         - ps: |
-            .\test\bin\test.ps1
+            .\test\bin\test.ps1 -TestPath "$env:APPVEYOR_BUILD_FOLDER"
 -
     matrix:
         only:
@@ -39,4 +39,4 @@ for:
         - pwsh: |
             # Issue: At each pwsh command, scoop disappears from the path variable
             $env:path = "$env:userprofile\scoop\shims;$env:path"
-            .\test\bin\test.ps1
+            .\test\bin\test.ps1 -TestPath "$env:APPVEYOR_BUILD_FOLDER"
