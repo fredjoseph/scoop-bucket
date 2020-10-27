@@ -6,4 +6,4 @@ bucket for [Scoop](http://scoop.sh)
 
 To make it easy to install apps from this bucket, run
 
-`scoop bucket add https://github.com/fredjoseph/scoop-bucket`
+`scoop bucket add fredjoseph https://github.com/fredjoseph/scoop-bucket`
