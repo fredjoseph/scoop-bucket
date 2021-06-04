@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/nzbget/nzbget",
     "description": "Usenet downloader",
-    "version": "21.0",
-    "url": "https://github.com/nzbget/nzbget/releases/download/v21.0/nzbget-21.0-bin-windows-setup.exe#/nzbget.7z",
-    "hash": "11119d24a8889a0377b3bc5697f81b4ae879e70c6e67fd0392809d2b6038746d",
+    "version": "21.1",
+    "url": "https://github.com/nzbget/nzbget/releases/download/v21.1/nzbget-21.1-bin-windows-setup.exe#/nzbget.7z",
+    "hash": "536515ca1e57321c5de664441d3394c4cd63c603183e257275188b3a9e168477",
     "shortcuts": [
         [
             "nzbget.exe",
