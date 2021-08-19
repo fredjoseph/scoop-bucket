@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.ascomp.de/en/products/show/product/synchredible",
     "description": "Synchronize or backup your files and folders",
-    "version": "7.100",
+    "version": "7.101",
     "url": "https://www.ascomp.de/en/download/synchred.exe",
-    "hash": "746e319fa196a99163aeed0c8bffea1b36c57e774c3f52732a050e019ddd7e14",
+    "hash": "5d680e194b7d7f8ce47ff31cee4c400949fde4417ac5ab33770491bb4461585a",
     "innosetup": true,
     "shortcuts": [
         [
