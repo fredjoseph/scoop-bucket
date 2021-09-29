@@ -19,10 +19,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-install-x86_64.exe#/dl.7z"
+                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-x86_64-install.exe#/dl.7z"
             },
             "32bit": {
-                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-install-i686.exe#/dl.7z"
+                "url": "https://github.com/mintty/wsltty/releases/download/$version/wsltty-$version-i686-install.exe#/dl.7z"
             }
         }
     },
