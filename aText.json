@@ -1,0 +1,27 @@
+{
+    "version": "1.12",
+    "homepage": "https://www.trankynam.com/atext",
+    "hash": "72385ed307682348e04a10c30e261f9403d69a7a02a57e8f889896064adc74de",
+    "url": "https://www.trankynam.com/atext/downloads/aTextSetup.zip",
+    "installer": {
+        "script": [
+            "Expand-7zipArchive \"$dir\\aTextSetup.msi\" \"$dir\\_tmp\"",
+            "Expand-7zipArchive \"$dir\\_tmp\\disk1.cab\" \"$dir\" -Removal",
+            "Remove-Item -Recurse \"$dir\\_tmp\", \"$dir\\aTextSetup.msi\""
+        ]
+    },
+    "bin": "aText.exe",
+    "shortcuts": [
+        [
+            "aText.exe",
+            "aText"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.trankynam.com/atext",
+        "regex": "Version ([\\w.]+) for Windows"
+    },
+    "autoupdate": {
+        "url": "https://www.trankynam.com/atext/downloads/aTextSetup.zip"
+    }
+}
