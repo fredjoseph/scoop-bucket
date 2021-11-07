@@ -18,7 +18,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://www.trankynam.com/atext",
+        "url": "https://www.trankynam.com/atext/",
         "regex": "Version ([\\w.]+) for Windows"
     },
     "autoupdate": {
