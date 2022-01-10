@@ -1,7 +1,7 @@
 {
-    "version": "1.16.2",
+    "version": "1.16.3",
     "homepage": "https://www.trankynam.com/atext",
-    "hash": "b94c30ec90fbb7c5fcd712aee1ead3e4d65f50c02ffa2785abd6e996e11fcee4",
+    "hash": "2cb2d3187722f01573cdaf36fbc15449f831434860149e2fe9727a94f71e86f2",
     "url": "https://www.trankynam.com/atext/downloads/aTextSetup.zip",
     "installer": {
         "script": [
