@@ -3,7 +3,7 @@
     "description": "Synchronize or backup your files and folders",
     "version": "8.001",
     "url": "https://www.ascomp.de/en/download/synchred.exe",
-    "hash": "7614ceae9325f18e351a0feee928eb28ffc5daaa4a731a4c4633b6d9cf5e87e7",
+    "hash": "acce658608d3162ad6ac0b2bfc3b7e42472d4d0be0671b54e821c26eb4c0f38a",
     "innosetup": true,
     "shortcuts": [
         [
