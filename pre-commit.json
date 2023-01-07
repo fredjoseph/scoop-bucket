@@ -4,7 +4,7 @@
     "license": "MIT",
     "version": "2.17.0",
     "depends": "python",
-    "url": "https://github.com/pre-commit/pre-commit/raw/master/LICENSE",
+    "url": "https://github.com/pre-commit/pre-commit/raw/main/LICENSE",
     "hash": "ea2ca27cba7cc35822d95a46d59bcd3cc88e196592e6390d1949a359ffc990e8",
     "post_install": "pip install pre-commit",
     "uninstaller": {
@@ -12,6 +12,6 @@
     },
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/pre-commit/pre-commit/raw/master/LICENSE"
+        "url": "https://github.com/pre-commit/pre-commit/raw/main/LICENSE"
     }
 }
